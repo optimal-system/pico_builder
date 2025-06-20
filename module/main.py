@@ -18,7 +18,8 @@ for _ in range(20) :
     test2.toggle_led2()
     time.sleep(0.5)
     
-# 3. Idem test2 mais le module test2 est exclusivement dans la mémoire accessible par l'IDE Thonny
+# 3. Idem test2 mais le module test3 est exclusivement dans la mémoire accessible par l'IDE Thonny
+# Il faut donc le déposer après le premier démarrage des tests 1 et 2
 import test3
 for _ in range(30) :
     test3.toggle_led3()
